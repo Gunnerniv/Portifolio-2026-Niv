@@ -1,5 +1,9 @@
 h1 {
     color: #ffffff;
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-family: sans-serif;
 }
 
 html {
@@ -7,7 +11,52 @@ html {
 }
 
 .title {
-  background-color: rgb(102, 102, 102);
+  background-color: rgba(116, 105, 105, 0.527);
   border: 2px solid rgb(255, 255, 255);
 }
 
+
+html {
+  background-image: url("LightningSunBG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar ul {
+  list-style-type: none;
+  color: crimson;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(51, 47, 47, 0.664);
+  display: flex;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+nav li a:hover {
+  background-color: rgba(0, 153, 255, 0.863);
+  color: black;
+  font-weight: bold;
+  border-color: aliceblue;
+  border-radius: 10px;
+}
+
+h2 {
+  color: aliceblue;
+}
+
+h3 {
+  color: aliceblue;
+}
+
+img {
+  border: 2px aliceblue; 
+  border-radius: 10px;
+}
